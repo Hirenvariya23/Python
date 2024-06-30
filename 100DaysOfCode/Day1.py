@@ -10,3 +10,20 @@ num2 = int(input("Enter 2nd no:"))
 num3 = int(input("Enter 3rd no:"))
 noOfLetters = len(input("Enter Your Country: "))
 print("Number of letters in your country = " + str(noOfLetters))    #str is used to covert to string
+
+# output
+
+# Hello python!!
+# Hiren "Variya"    
+# Hiren 'Variya'    
+# Hello
+#  World
+
+# What is your name?
+# rgtgtgt
+# Hello rgtgtgt
+# Enter 1st no:45
+# Enter 2nd no:45
+# Enter 3rd no:84
+# Enter Your Country: India
+# Number of letters in your country = 5
