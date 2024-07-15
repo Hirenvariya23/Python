@@ -44,6 +44,8 @@ if nTotalScore < 10 or nTotalScore > 90:
 else:
   print(f"Your love score is {nTotalScore}.")
 
+
+
   #output
 
 # True
@@ -53,5 +55,5 @@ else:
 # Enter the year for the leap year check: 2045
 # Not leap year
 # What is your name?Hiren
-# What is their name?priya
+# What is their name? shreya
 # Your love score is 31.

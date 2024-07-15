@@ -24,6 +24,8 @@ iTipPercentage = int(input("How much is the tip percentage? "))
 fPerPersonBill = (fTotalBill + (fTotalBill * (iTipPercentage / 100))) / iNoOfPeople
 fPerPersonBill = "{:.2f}".format(fPerPersonBill)    # round(fPerPersonBill, 2)
 print(f"Per person bill = ${fPerPersonBill}")
+hotel = input("have a nice day please come again!!!")
+print("hotel")
 
 #output
 

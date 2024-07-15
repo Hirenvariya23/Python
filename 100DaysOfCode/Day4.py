@@ -4,8 +4,8 @@ fRandomNo = random.random()         # 0.0000 to 0.9999
 print(f"{nRandomNo}, {fRandomNo}, Random no = {nRandomNo + fRandomNo}")
 
 lsStatesOfIndia = ["Maharashtra", "Arunachal Pradesh", "Madhya Pradesh"]
-lsStatesOfIndia.append("Chennai")     # only allows one append
-lsStatesOfIndia.extend(["Tripura", "Meghalaya"]) # allows unlimited element
+lsStatesOfIndia.append("Chennai")
+lsStatesOfIndia.extend(["Tripura", "Meghalaya"])
 print(f"{lsStatesOfIndia[-1]}, Total states = {len(lsStatesOfIndia)}")  # prints from backwards
 # lsStatesOfIndia = lsStatesOfIndia.split(" ")
 
@@ -94,7 +94,6 @@ if (nUserChoice == 0 and nComputerChoice == 1) or (nUserChoice == 1 and nCompute
 elif nUserChoice == nComputerChoice:
   print("This is draw!")
 print(f"User won? {bUserWins}")
-
 
 #output
 
