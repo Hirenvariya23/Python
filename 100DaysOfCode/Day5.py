@@ -66,6 +66,8 @@ for i in range(0, len(mergedStr)):
             randomNo = random.randint(0, len(mergedStr) - 1)
             if lsVisitedNo.count(randomNo) == 0:
                 lsVisitedNo.append(randomNo)
+
+    
                 break
     
     sFinalPwd += mergedStr[randomNo]
